@@ -244,3 +244,15 @@ padding: 2rem 2rem;
   gap: 2rem;
 }
 
+.contact__link div img {
+  color:#ffffff;
+}
+
+.contact__link div img {
+  width: 24px;
+  filter: invert(.8);
+}
+
+img {
+  width: 24px;
+}
