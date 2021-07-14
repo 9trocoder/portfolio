@@ -40,7 +40,6 @@ h5 {
 
 h3 {
   font-size: 28px;
-  text-decoration: underline;
 }
 
 h2 {
@@ -178,20 +177,22 @@ h1 {
 }
 
 .serviceh1 {
-  margin: 0 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem 2rem;
+  text-align: center;
 }
 .services__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   grid-gap: 6rem;
-  margin: 2rem 2rem;
+  margin: 4rem 2rem;
   justify-items: start;
   align-items: start;
 }
 
 .webdesign {
   display: grid;
-  grid-gap: 4rem;
+  grid-gap: 5rem;
   
 }
 
@@ -255,4 +256,10 @@ padding: 2rem 2rem;
 
 img {
   width: 24px;
+}
+
+.webdesign div img {
+  width: 30px;
+  margin-bottom: -.5rem;
+  margin-right: 1rem;
 }
