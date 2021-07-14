@@ -113,7 +113,7 @@ h1 {
 .about {
   grid-row: 2;
   grid-column: full-start / full-end;
-  background-color: rgb(212,81,77);
+  background-color: rgb(0,112,243);
   padding: 2rem 2rem;
   display: grid;
   grid-template-columns: [full-start] 1fr [center-start] repeat(
